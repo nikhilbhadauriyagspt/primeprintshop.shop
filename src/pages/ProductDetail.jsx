@@ -290,7 +290,7 @@ export default function ProductDetail() {
                         { label: "Manufacturer", value: product.brand_name || "Official Partner" },
                         { label: "Model series", value: product.category_name || "Enterprise" },
                         { label: "Condition", value: "Factory New" },
-                        { label: "Technical support", value: "24/7 Expert" }
+                        { label: "Expert support", value: "24/7 Expert" }
                       ].map((spec, i) => (
                         <div key={i} className="flex items-center justify-between py-3.5 border-b border-slate-50">
                           <span className="text-[11px] font-black uppercase tracking-widest text-slate-400">{spec.label}</span>

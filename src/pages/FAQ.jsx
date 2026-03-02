@@ -42,7 +42,7 @@ const faqData = [
       { q: "Do your products come with a manufacturer's warranty?", a: "Yes. Every product includes full brand-backed warranty with repair/replacement coverage." },
       { q: "How do I claim warranty for HP products?", a: "You can contact HP Support directly or reach out to us for guidance and warranty assistance." },
       { q: "What if my hardware arrives damaged?", a: "Contact us within 48 hours with photos/videos. We’ll arrange a replacement or initiate a claim." },
-      { q: "Do you provide technical support?", a: "Yes. We offer setup help, troubleshooting, installation support, and product-related guidance." }
+      { q: "Do you provide expert support?", a: "Yes. We offer setup help, troubleshooting, installation support, and product-related guidance." }
     ]
   }
 ];
@@ -63,7 +63,7 @@ export default function FAQ() {
   return (
     <div className="bg-[#f8fafc] min-h-screen font-sans text-slate-900 pb-20 pt-4">
       <SEO
-        title="Knowledge Base | Technical FAQ"
+        title="Knowledge Base | Support FAQ"
         description="Find detailed answers to common questions about orders, authorized hardware, shipping, and certified HP support."
       />
 
@@ -126,10 +126,10 @@ export default function FAQ() {
               <div className="relative z-10 space-y-6">
                 <div className="flex items-center gap-3">
                   <Sparkles className="text-indigo-400" size={24} strokeWidth={2.5} />
-                  <span className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Technical Help</span>
+                  <span className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Expert Help</span>
                 </div>
                 <h4 className="text-2xl font-black leading-tight tracking-tight italic">Need Personal Assistance?</h4>
-                <p className="text-slate-400 text-sm font-medium leading-relaxed">Our certified specialists are ready to help with your complex technical inquiries.</p>
+                <p className="text-slate-400 text-sm font-medium leading-relaxed">Our certified specialists are ready to help with your complex expert inquiries.</p>
                 <Link to="/contact" className="inline-flex items-center gap-3 bg-indigo-600 text-white px-8 py-4 rounded-2xl text-[11px] font-black uppercase tracking-widest hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-900/40">
                   Contact Support <ArrowRight size={16} />
                 </Link>

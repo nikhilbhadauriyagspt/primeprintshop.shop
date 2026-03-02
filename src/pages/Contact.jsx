@@ -44,8 +44,8 @@ export default function Contact() {
   return (
     <div className="bg-[#f8fafc] min-h-screen font-sans text-slate-900 pb-20 pt-4">
       <SEO
-        title="Contact Us | Expert Technical Support"
-        description="Connect with the Primeprintshop team for technical support, bulk orders, or authorized hardware inquiries."
+        title="Contact Us | Expert Support"
+        description="Connect with the Primeprintshop team for expert support, bulk orders, or authorized hardware inquiries."
       />
 
       {/* --- Breadcrumbs Header --- */}
@@ -171,8 +171,7 @@ export default function Contact() {
                             className="w-full h-16 px-6 bg-slate-50 border border-slate-100 rounded-2xl focus:bg-white focus:border-indigo-600 outline-none text-sm font-bold text-slate-800 transition-all appearance-none cursor-pointer"
                           >
                             <option>General Inquiry</option>
-                            <option>Technical Support</option>
-                            <option>Order Tracking</option>
+                            <option>Hardware Support</option>                            <option>Order Tracking</option>
                             <option>Bulk Hardware Quotes</option>
                             <option>Warranty Assistance</option>
                           </select>
@@ -184,7 +183,7 @@ export default function Contact() {
                     <div className="space-y-3">
                       <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-4">Transmission Details</label>
                       <textarea
-                        required rows="6" placeholder="Describe your technical requirements or inquiry details..."
+                        required rows="6" placeholder="Describe your hardware requirements or inquiry details..."
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         className="w-full p-8 bg-slate-50 border border-slate-100 rounded-[32px] focus:bg-white focus:border-indigo-600 outline-none text-sm font-bold text-slate-800 transition-all resize-none"

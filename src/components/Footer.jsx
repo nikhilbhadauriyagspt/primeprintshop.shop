@@ -72,7 +72,7 @@ export default function Footer() {
                   </p>
                 </div>
                 <p className="text-slate-400 font-medium leading-relaxed text-[15px] max-w-sm mt-6">
-                  Authorized HP Partner delivering enterprise-grade hardware and specialized technical expertise to modern workspaces nationwide.
+                  Authorized HP Partner delivering enterprise-grade hardware and specialized expertise to modern workspaces nationwide.
                 </p>
               </div>
 

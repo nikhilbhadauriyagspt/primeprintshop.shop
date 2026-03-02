@@ -6,7 +6,7 @@ export default function CookiePolicy() {
   return (
     <PolicyLayout
       title="Cookie Policy"
-      subtitle="Learn about how we use cookies and similar technologies on our website."
+      subtitle="Learn about how we use cookies and similar systems on our website."
       lastUpdated="February 11, 2026"
     >
       <p className="lead">
@@ -68,7 +68,7 @@ export default function CookiePolicy() {
       <p>These cookies allow us to:</p>
       <ul>
         <li>Improve website structure</li>
-        <li>Identify technical issues</li>
+        <li>Identify system issues</li>
         <li>Enhance user experience</li>
         <li>Optimize product listings</li>
       </ul>

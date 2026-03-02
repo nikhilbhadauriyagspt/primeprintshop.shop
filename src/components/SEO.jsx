@@ -21,7 +21,7 @@ export default function SEO({ title, description, keywords, schemaType = "Websit
       metaKeywords.name = "keywords";
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', keywords || "HP Authorized Partner, Premium Laptops, Business Printers, Tech Support");
+    metaKeywords.setAttribute('content', keywords || "HP Authorized Partner, Premium Laptops, Business Printers, Expert Support");
 
     // Update Canonical
     let canonical = document.querySelector('link[rel="canonical"]');

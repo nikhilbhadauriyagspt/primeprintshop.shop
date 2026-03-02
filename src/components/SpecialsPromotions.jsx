@@ -71,7 +71,7 @@ export default function SpecialsPromotions() {
           <div className="lg:col-span-2">
             <PromoCard
               image={IMG.bottomRight}
-              tag="New Tech"
+              tag="New Arrival"
               title="Advanced color solutions"
               subtitle="Precision color for design professionals and studios."
               price="Exclusive partnership"

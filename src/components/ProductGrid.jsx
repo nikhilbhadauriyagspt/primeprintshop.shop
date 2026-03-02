@@ -41,7 +41,7 @@ export default function ProductGrid({ products = [] }) {
           </h2>
         </div>
         <Link to="/shop" className="group flex items-center gap-3 text-[10px] font-bold capitalize tracking-widest text-slate-400 hover:text-slate-950 transition-all border-b border-slate-100 pb-2">
-          Explore all tech <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+          Explore all products <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
         </Link>
       </div>
 

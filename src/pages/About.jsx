@@ -44,7 +44,7 @@ export default function About() {
               <div className="w-16 h-1.5 bg-indigo-600 rounded-full" />
             </div>
             <p className="text-slate-500 text-lg md:text-xl font-medium leading-relaxed max-w-2xl">
-              Founded in 2026, Primeprintshop was established to solve a singular challenge: making the acquisition of high-performance printing infrastructure simple, transparent, and absolutely authentic. As a new generation authorized partner, we bridge the gap between complex industrial technology and a seamless, personalized experience.
+              Founded in 2026, Primeprintshop was established to solve a singular challenge: making the acquisition of high-performance printing infrastructure simple, transparent, and absolutely authentic. As a new generation authorized partner, we bridge the gap between complex industrial solutions and a seamless, personalized experience.
             </p>
           </div>
           <div className="lg:col-span-5 relative z-10">
@@ -67,7 +67,7 @@ export default function About() {
             {[
               { icon: Printer, title: "Hardware Deployment", desc: "Expert selection of LaserJet, All-in-One, and high-volume industrial systems tailored for your specialized business needs." },
               { icon: Package, title: "Supply Chain Excellence", desc: "Authorized source for 100% genuine HP ink, toner, and certified replacement parts with rapid nationwide logistics." },
-              { icon: Headphones, title: "Specialist Support", desc: "Factory-trained technicians providing troubleshooting, installation guidance, and long-term hardware maintenance protocols." }
+              { icon: Headphones, title: "Specialist Support", desc: "Factory-trained specialists providing troubleshooting, installation guidance, and long-term hardware maintenance protocols." }
             ].map((item, i) => (
               <motion.div
                 key={i} whileHover={{ y: -8 }}
@@ -95,7 +95,7 @@ export default function About() {
               </div>
               <h3 className="text-4xl md:text-5xl font-black leading-[1.1] tracking-tighter italic">The customer <br /> standard.</h3>
               <p className="text-slate-400 text-lg font-medium leading-relaxed max-w-md">
-                To empower professionals with reliable, efficient, and sustainable hardware solutions through original products and certified advice. We believe in technology that works as hard as you do.
+                To empower professionals with reliable, efficient, and sustainable hardware solutions through original products and certified advice. We believe in hardware that works as hard as you do.
               </p>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function About() {
               </div>
               <h2 className="text-4xl md:text-5xl font-black leading-[1.1] tracking-tighter italic">Nationwide <br /> reach.</h2>
               <p className="text-slate-500 text-lg font-medium leading-relaxed max-w-md">
-                Expanding across the United States to deliver professional HP technology with unmatched logistics and long-term service value. Our network ensures you are never without technical support.
+                Expanding across the United States to deliver professional HP hardware with unmatched logistics and long-term service value. Our network ensures you are never without expert support.
               </p>
             </div>
           </div>
@@ -136,8 +136,8 @@ export default function About() {
               { title: "Hardware Service", icon: Zap, color: "text-amber-500", bg: "bg-amber-50" },
               { title: "Safe Logistics", icon: Globe, color: "text-emerald-600", bg: "bg-emerald-50" },
               { title: "Original Hardware", icon: CheckCircle2, color: "text-indigo-600", bg: "bg-indigo-50" },
-              { title: "Technical Center", icon: Headphones, color: "text-blue-600", bg: "bg-blue-50" },
-              { title: "Sustainable Tech", icon: Leaf, color: "text-emerald-600", bg: "bg-emerald-50" },
+              { title: "Service Center", icon: Headphones, color: "text-blue-600", bg: "bg-blue-50" },
+              { title: "Sustainable Solutions", icon: Leaf, color: "text-emerald-600", bg: "bg-emerald-50" },
               { title: "Professional Hub", icon: Wrench, color: "text-slate-600", bg: "bg-slate-50" }
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-5 group">

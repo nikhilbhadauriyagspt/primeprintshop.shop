@@ -17,7 +17,7 @@ export default function TermsAndConditions() {
           We operate the website <a href="http://primeprintshop.shop/">http://primeprintshop.shop/</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
         </p>
         <p>
-          Primeprintshop Solutions is your trusted destination for authentic, high-performance printers and printing accessories from HP and other leading technology brands.
+          Primeprintshop Solutions is your trusted destination for authentic, high-performance printers and printing accessories from HP and other leading brands.
         </p>
         <p>
           You can contact us by email at <a href="mailto:info@primeprintshop.shop">info@primeprintshop.shop</a>, or by mail to N Rosemead Blvd, Pasadena, CA 91107, United States.
@@ -259,7 +259,7 @@ export default function TermsAndConditions() {
       <section>
         <h2>11. Services Management</h2>
         <p>
-          We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.
+          We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.
         </p>
       </section>
 

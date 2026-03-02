@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
       </p>
       <ul>
         <li>Visit our website at <a href="http://primeprintshop.shop/">http://primeprintshop.shop/</a> or any website of ours that links to this Privacy Notice</li>
-        <li>Use Printers, Consumables & Accessories. Primeprintshop Solutions is your trusted destination for authentic, high-performance printers and printing accessories from HP and other leading technology brands.</li>
+        <li>Use Printers, Consumables & Accessories. Primeprintshop Solutions is your trusted destination for authentic, high-performance printers and printing accessories from HP and other leading brands.</li>
         <li>Engage with us in other related ways, including any marketing or events</li>
       </ul>
       <p>
@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
           <li><strong>Do we collect any information from third parties?</strong> We do not collect any information from third parties.</li>
           <li><strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.</li>
           <li><strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific third parties.</li>
-          <li><strong>How do we keep your information safe?</strong> We have adequate organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure.</li>
+          <li><strong>How do we keep your information safe?</strong> We have adequate organizational and security processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage system can be guaranteed to be 100% secure.</li>
           <li><strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.</li>
           <li><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by submitting a data subject access request, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</li>
         </ul>
@@ -126,8 +126,8 @@ export default function PrivacyPolicy() {
       <p>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
 
       <h2>7. How Do We Keep Your Information Safe?</h2>
-      <p><strong>In Short:</strong> We aim to protect your personal information through a system of organizational and technical security measures.</p>
-      <p>We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
+      <p><strong>In Short:</strong> We aim to protect your personal information through a system of organizational and security measures.</p>
+      <p>We have implemented appropriate and reasonable security and organizational measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
 
       <h2>8. Do We Collect Information From Minors?</h2>
       <p><strong>In Short:</strong> We do not knowingly collect data from or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction.</p>
