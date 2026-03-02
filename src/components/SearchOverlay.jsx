@@ -64,8 +64,12 @@ export default function SearchOverlay() {
     }
   };
 
-  const handleQuickSearch = (query) => {
-    navigate(`/shop?search=${encodeURIComponent(query)}`);
+  const handleQuickSearch = (query, type = 'search') => {
+    if (type === 'category') {
+      navigate(`/shop?category=${encodeURIComponent(query)}`);
+    } else {
+      navigate(`/shop?search=${encodeURIComponent(query)}`);
+    }
     closeSearch();
     setSearchQuery('');
   };
@@ -179,13 +183,19 @@ export default function SearchOverlay() {
                       <TrendingUp size={14} className="text-indigo-500" /> Trending Searches
                     </h3>
                     <div className="flex flex-wrap gap-2">
-                      {['HP LaserJet Pro', 'Smart Tank 500', 'Original Ink', 'Wireless Setup', 'Color LaserJet'].map((tag) => (
+                      {[
+                        { label: 'HP LaserJet Pro', query: 'LaserJet Pro' },
+                        { label: 'Smart Tank', query: 'Smart Tank' },
+                        { label: 'Ink & Toner', query: 'Ink' },
+                        { label: 'Wireless', query: 'Wireless' },
+                        { label: 'Color LaserJet', query: 'Color LaserJet' }
+                      ].map((tag) => (
                         <button
-                          key={tag}
-                          onClick={() => handleQuickSearch(tag)}
+                          key={tag.label}
+                          onClick={() => handleQuickSearch(tag.query)}
                           className="px-4 py-2 bg-slate-50 hover:bg-indigo-50 hover:text-indigo-600 rounded-xl text-[13px] font-bold text-slate-600 transition-all border border-slate-100 hover:border-indigo-100"
                         >
-                          {tag}
+                          {tag.label}
                         </button>
                       ))}
                     </div>
@@ -197,13 +207,18 @@ export default function SearchOverlay() {
                       <History size={14} className="text-indigo-500" /> Quick Access
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      {['All-in-One Printers', 'LaserJet Series', 'Inkjet Solutions', 'Supplies & Toners'].map((cat) => (
+                      {[
+                        { label: 'All-in-One Printers', slug: 'all-in-one-printers' },
+                        { label: 'Laser Printers', slug: 'laser-printers' },
+                        { label: 'Inkjet Printers', slug: 'inkjet-printers' },
+                        { label: 'Printer Accessories', slug: 'printer-accessories' }
+                      ].map((cat) => (
                         <button
-                          key={cat}
-                          onClick={() => handleQuickSearch(cat)}
+                          key={cat.label}
+                          onClick={() => handleQuickSearch(cat.slug, 'category')}
                           className="flex items-center justify-between w-full p-3.5 hover:bg-slate-50 rounded-2xl group transition-all text-left"
                         >
-                          <span className="font-bold text-slate-700 text-[14px] group-hover:text-indigo-600">{cat}</span>
+                          <span className="font-bold text-slate-700 text-[14px] group-hover:text-indigo-600">{cat.label}</span>
                           <ChevronRight size={16} className="text-slate-200 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all" />
                         </button>
                       ))}
